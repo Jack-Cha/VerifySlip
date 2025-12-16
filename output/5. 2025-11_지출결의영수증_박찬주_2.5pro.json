@@ -1,0 +1,379 @@
+[
+  {
+    "Date": "2025-11-01",
+    "Time": "13:17:00",
+    "Total Amount": 9500,
+    "Approval Code": "15824971",
+    "Vendor Name": "이마트24 대전둔산시티점",
+    "Representative Name": "김은주",
+    "Tax ID": "895-13-00577",
+    "Vendor Address": "대전광역시 서구 둔산남로91번길 16",
+    "Customer Address": null,
+    "Phone Number": "02-6916-1500",
+    "Supply Value": 8636,
+    "VAT": 864,
+    "Service Charge": null,
+    "Card Number": "5107-3784-****-3891",
+    "Line Items": [
+      {
+        "Item Name": "구운빵햄야채토스트샌드",
+        "Unit Price": 2800,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2800
+      },
+      {
+        "Item Name": "NB) 크라비150g",
+        "Unit Price": 2200,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2200
+      },
+      {
+        "Item Name": "행복) 훈제메추리알25g",
+        "Unit Price": 2000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2000
+      },
+      {
+        "Item Name": "티즐제로유자그린티펫500m1",
+        "Unit Price": 2500,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2500
+      },
+      {
+        "Item Name": "티즐제로자몽블랙티펫500ml",
+        "Unit Price": 2500,
+        "Quantity": 1,
+        "Item Discount": 2500,
+        "Item Total": 0
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-04",
+    "Time": "19:35:24",
+    "Total Amount": 26400,
+    "Approval Code": "00182290",
+    "Vendor Name": "이토우야",
+    "Representative Name": "이재균",
+    "Tax ID": "148-29-00152",
+    "Vendor Address": "대전시 서구 문정로 77, 336호(탄방동)",
+    "Customer Address": null,
+    "Phone Number": "042-485-5892",
+    "Supply Value": 24000,
+    "VAT": 2400,
+    "Service Charge": null,
+    "Card Number": "489016******",
+    "Line Items": [
+      {
+        "Item Name": "모듬셋트",
+        "Unit Price": 11000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 11000
+      },
+      {
+        "Item Name": "김치어묵우동",
+        "Unit Price": 7500,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 7500
+      },
+      {
+        "Item Name": "왕새우튀김 우동",
+        "Unit Price": 7900,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 7900
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-05",
+    "Time": "19:03:27",
+    "Total Amount": 58000,
+    "Approval Code": "40884809",
+    "Vendor Name": "숯불돈까스",
+    "Representative Name": "임수찬",
+    "Tax ID": "493-26-01142",
+    "Vendor Address": "대전 서구 문정로 82 (탄방동) 1층103호",
+    "Customer Address": null,
+    "Phone Number": "042-535-0119",
+    "Supply Value": 52728,
+    "VAT": 5272,
+    "Service Charge": null,
+    "Card Number": "9442-8160-****-****",
+    "Line Items": []
+  },
+  {
+    "Date": "2025-11-06",
+    "Time": "23:13:00",
+    "Total Amount": 11850,
+    "Approval Code": "41783746",
+    "Vendor Name": "이마트24 대전둔산시티점",
+    "Representative Name": "김은주",
+    "Tax ID": "895-13-00577",
+    "Vendor Address": "대전광역시 서구 둔산남로91번길 16",
+    "Customer Address": null,
+    "Phone Number": "02-6916-1500",
+    "Supply Value": 10772,
+    "VAT": 1078,
+    "Service Charge": null,
+    "Card Number": "9442-8160-****-259*",
+    "Line Items": [
+      {
+        "Item Name": "랍스터킹",
+        "Unit Price": 5000,
+        "Quantity": 2,
+        "Item Discount": 5000,
+        "Item Total": 5000
+      },
+      {
+        "Item Name": "구운빵햄치즈토스트샌드2편",
+        "Unit Price": 3000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 3000
+      },
+      {
+        "Item Name": "홍생) 구운계란2입",
+        "Unit Price": 2600,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2600
+      },
+      {
+        "Item Name": "팔도) 도시락86g",
+        "Unit Price": 1100,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 1100
+      },
+      {
+        "Item Name": "e24) 친환경생분해쇼핑백_중",
+        "Unit Price": 150,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 150
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-10",
+    "Time": "22:52:00",
+    "Total Amount": 10800,
+    "Approval Code": "41815217",
+    "Vendor Name": "이마트24 대전둔산시티점",
+    "Representative Name": "김은주",
+    "Tax ID": "895-13-00577",
+    "Vendor Address": "대전광역시 서구 둔산남로91번길 16",
+    "Customer Address": null,
+    "Phone Number": "02-6916-1500",
+    "Supply Value": 9819,
+    "VAT": 981,
+    "Service Charge": null,
+    "Card Number": "9442-8160-****-259*",
+    "Line Items": [
+      {
+        "Item Name": "더블스팸김치볶음&햄참치마",
+        "Unit Price": 2200,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2200
+      },
+      {
+        "Item Name": "아삭햄야채샌드위치",
+        "Unit Price": 2600,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2600
+      },
+      {
+        "Item Name": "팔도) 도시락86g",
+        "Unit Price": 1100,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 1100
+      },
+      {
+        "Item Name": "CJ) 1등급훈제대란2입",
+        "Unit Price": 2400,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2400
+      },
+      {
+        "Item Name": "CJ) 맥스봉고소한치즈후랑크",
+        "Unit Price": 2400,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2400
+      },
+      {
+        "Item Name": "CJ) 진한풍미후랑크65g",
+        "Unit Price": 2400,
+        "Quantity": 1,
+        "Item Discount": 2400,
+        "Item Total": 0
+      },
+      {
+        "Item Name": "e24) 친환경생분해쇼핑백_소",
+        "Unit Price": 100,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 100
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-17",
+    "Time": "20:44:52",
+    "Total Amount": 32000,
+    "Approval Code": "30081061",
+    "Vendor Name": "진미본순대",
+    "Representative Name": "이혁주",
+    "Tax ID": "601-06-96091",
+    "Vendor Address": "대전 서구 둔산남로 98-17 (탄방동) 1층",
+    "Customer Address": null,
+    "Phone Number": "01044187478",
+    "Supply Value": 29091,
+    "VAT": 2909,
+    "Service Charge": null,
+    "Card Number": "523612**********",
+    "Line Items": []
+  },
+  {
+    "Date": "2025-11-18",
+    "Time": "20:02:30",
+    "Total Amount": 10550,
+    "Approval Code": "40992350",
+    "Vendor Name": "베이커리카페가루밀 (대전)",
+    "Representative Name": "정안기",
+    "Tax ID": "469-25-01744",
+    "Vendor Address": "대전 서구 둔산중로 지하 55 (둔산동, 시청역) 지하1층 111-2",
+    "Customer Address": null,
+    "Phone Number": "042-482-7795",
+    "Supply Value": 9593,
+    "VAT": 957,
+    "Service Charge": null,
+    "Card Number": "9442-81**-****-2590",
+    "Line Items": [
+      {
+        "Item Name": "어니언소세지",
+        "Unit Price": 4000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 4000
+      },
+      {
+        "Item Name": "길지롱",
+        "Unit Price": 4000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 4000
+      },
+      {
+        "Item Name": "초코파이",
+        "Unit Price": 2500,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 2500
+      },
+      {
+        "Item Name": "봉투",
+        "Unit Price": 50,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 50
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-22",
+    "Time": "12:16:10",
+    "Total Amount": 10000,
+    "Approval Code": "41898848",
+    "Vendor Name": "에그드랍 대전탄방점",
+    "Representative Name": "이승준",
+    "Tax ID": "682-50-00715",
+    "Vendor Address": "대전 서구 문정로89번길 33 102호",
+    "Customer Address": null,
+    "Phone Number": "042-716-2662",
+    "Supply Value": null,
+    "VAT": null,
+    "Service Charge": null,
+    "Card Number": "944281**********",
+    "Line Items": [
+      {
+        "Item Name": "아메리칸 브런치 세트",
+        "Unit Price": 9700,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 9700
+      },
+      {
+        "Item Name": "(음료변경) 100% 착즙 오렌지 주스(레귤러)",
+        "Unit Price": 0,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 0
+      },
+      {
+        "Item Name": "(바꾸기 선택(브런치: 빵 변경))갈릭브레드로 변경",
+        "Unit Price": 300,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 300
+      }
+    ]
+  },
+  {
+    "Date": "2025-11-25",
+    "Time": "22:24:00",
+    "Total Amount": 11100,
+    "Approval Code": "40047870",
+    "Vendor Name": "이마트24 대전둔산시티점",
+    "Representative Name": "김은주",
+    "Tax ID": "895-13-00577",
+    "Vendor Address": "대전광역시 서구 둔산남로91번길 16",
+    "Customer Address": null,
+    "Phone Number": "02-6916-1500",
+    "Supply Value": 10090,
+    "VAT": 1010,
+    "Service Charge": null,
+    "Card Number": "9442-8160-****-259*",
+    "Line Items": [
+      {
+        "Item Name": "구운빵햄치즈토스트샌드2편",
+        "Unit Price": 3000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 3000
+      },
+      {
+        "Item Name": "올바른스팸마요&김치반반김",
+        "Unit Price": 3000,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 3000
+      },
+      {
+        "Item Name": "랍스터킹",
+        "Unit Price": 5000,
+        "Quantity": 2,
+        "Item Discount": 5000,
+        "Item Total": 5000
+      },
+      {
+        "Item Name": "e24) 친환경생분해쇼핑백_소",
+        "Unit Price": 100,
+        "Quantity": 1,
+        "Item Discount": 0,
+        "Item Total": 100
+      }
+    ]
+  }
+]

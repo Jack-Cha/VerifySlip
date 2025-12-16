@@ -1,0 +1,444 @@
+[
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-05",
+      "time": "12:45:28",
+      "total_amount": 31000,
+      "approval_code": "00964550"
+    },
+    "vendor_info": {
+      "vendor_name": "곰바우",
+      "representative_name": "정종목",
+      "tax_id": "306-47-64232",
+      "vendor_address": "대전 유성구 신성남로 107-1, 1층 (신성동)",
+      "customer_address": null,
+      "phone_number": "042-863-7371"
+    },
+    "payment_details": {
+      "supply_value": 28182,
+      "vat": 2818,
+      "service_charge": 0,
+      "card_number": "4***********-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-07",
+      "time": "11:56:14",
+      "total_amount": 45000,
+      "approval_code": "00508911"
+    },
+    "vendor_info": {
+      "vendor_name": "토모카츠",
+      "representative_name": "이예성",
+      "tax_id": "130-51-00813",
+      "vendor_address": "대전 유성구 신성남로111번길 8, 101호 (신성동)",
+      "customer_address": null,
+      "phone_number": "042-000-0000"
+    },
+    "payment_details": {
+      "supply_value": 40909,
+      "vat": 4091,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-12",
+      "time": "12:33:23",
+      "total_amount": 33000,
+      "approval_code": "00315766"
+    },
+    "vendor_info": {
+      "vendor_name": "엉클부대찌개신성점",
+      "representative_name": "김미경",
+      "tax_id": "648-60-00539",
+      "vendor_address": "대전 유성구 유성대로1184번길 11-9, 지상 1층 (신성동, 지상)",
+      "customer_address": null,
+      "phone_number": "042-862-0531"
+    },
+    "payment_details": {
+      "supply_value": 30000,
+      "vat": 3000,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-17",
+      "time": "11:54:59",
+      "total_amount": 39000,
+      "approval_code": "00565255"
+    },
+    "vendor_info": {
+      "vendor_name": "서원골유황오리",
+      "representative_name": "박창순",
+      "tax_id": "575-08-00946",
+      "vendor_address": "대전 유성구 엑스포로269번길 8, 1층 (원촌동)",
+      "customer_address": null,
+      "phone_number": "042-862-4251"
+    },
+    "payment_details": {
+      "supply_value": 35455,
+      "vat": 3545,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-17",
+      "time": "15:23:48",
+      "total_amount": 76780,
+      "approval_code": "00606142"
+    },
+    "vendor_info": {
+      "vendor_name": "홈플러스 유성점",
+      "representative_name": "조주연",
+      "tax_id": "220-81-60348",
+      "vendor_address": "서울특별시 강서구 화곡로 398",
+      "customer_address": null,
+      "phone_number": "1577-3355"
+    },
+    "payment_details": {
+      "supply_value": 69800,
+      "vat": 6980,
+      "service_charge": null,
+      "card_number": "4045770"
+    },
+    "line_items": [
+      {
+        "item_name": "해태 아이비 58G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "오리온 고소미 70G",
+        "unit_price": 1000,
+        "quantity": 2,
+        "item_discount": 666,
+        "item_total": 1334
+      },
+      {
+        "item_name": "롯데샌드 오리지날 79G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "크라운 콘칩 70G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 337,
+        "item_total": 663
+      },
+      {
+        "item_name": "오리온 왕고래밥 볶음양념 56G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "오리온 눈을감자 36G",
+        "unit_price": 1000,
+        "quantity": 3,
+        "item_discount": 1000,
+        "item_total": 2000
+      },
+      {
+        "item_name": "해태 허니버터칩 44G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "오리온 오감자 그라탕 45G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "롯데 치토스 매콤달콤한맛 64G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "해태 오사쯔 48G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "오리온 꼬북칩 콘스프 64G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "오리온 썬 핫스파이시맛 66G",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 333,
+        "item_total": 667
+      },
+      {
+        "item_name": "동서 미떼 오리지날&마일드",
+        "unit_price": 14230,
+        "quantity": 1,
+        "item_discount": 0,
+        "item_total": 14230
+      },
+      {
+        "item_name": "롯데칠성 델몬트 포도드링크",
+        "unit_price": 3290,
+        "quantity": 1,
+        "item_discount": 1645,
+        "item_total": 1645
+      },
+      {
+        "item_name": "롯데칠성 델몬트 오렌지드링크",
+        "unit_price": 3290,
+        "quantity": 1,
+        "item_discount": 1645,
+        "item_total": 1645
+      },
+      {
+        "item_name": "롯데칠성 델몬트 사과드링크",
+        "unit_price": 3290,
+        "quantity": 1,
+        "item_discount": 1645,
+        "item_total": 1645
+      },
+      {
+        "item_name": "롯데칠성 델몬트 망고드링크",
+        "unit_price": 3290,
+        "quantity": 1,
+        "item_discount": 1645,
+        "item_total": 1645
+      },
+      {
+        "item_name": "크라운 빅파이 216G",
+        "unit_price": 2590,
+        "quantity": 1,
+        "item_discount": 640,
+        "item_total": 1950
+      },
+      {
+        "item_name": "오리온 촉촉한 초코칩 160G",
+        "unit_price": 2590,
+        "quantity": 1,
+        "item_discount": 640,
+        "item_total": 1950
+      },
+      {
+        "item_name": "오리온 후레쉬베리 168G",
+        "unit_price": 2990,
+        "quantity": 1,
+        "item_discount": 740,
+        "item_total": 2250
+      },
+      {
+        "item_name": "아미고 나쵸 그랩앤고 치즈",
+        "unit_price": 2490,
+        "quantity": 1,
+        "item_discount": 615,
+        "item_total": 1875
+      },
+      {
+        "item_name": "아미고 나쵸 그랩앤고 살사",
+        "unit_price": 2490,
+        "quantity": 1,
+        "item_discount": 615,
+        "item_total": 1875
+      },
+      {
+        "item_name": "해태 자가비 감자케이스 90G",
+        "unit_price": 3590,
+        "quantity": 3,
+        "item_discount": 0,
+        "item_total": 10770
+      },
+      {
+        "item_name": "해태 자가비 케첩맛 90G",
+        "unit_price": 3590,
+        "quantity": 1,
+        "item_discount": 0,
+        "item_total": 3590
+      },
+      {
+        "item_name": "simplus 더두꺼운 테이크아웃",
+        "unit_price": 7400,
+        "quantity": 1,
+        "item_discount": 0,
+        "item_total": 7400
+      },
+      {
+        "item_name": "오리온 스윙칩 볶음고추장(햇감",
+        "unit_price": 1000,
+        "quantity": 1,
+        "item_discount": 0,
+        "item_total": 1000
+      },
+      {
+        "item_name": "오리온 찍먹예감 갈릭청양마요",
+        "unit_price": 1490,
+        "quantity": 1,
+        "item_discount": 0,
+        "item_total": 1490
+      },
+      {
+        "item_name": "삼육 검은콩 호두와 아몬드",
+        "unit_price": 16990,
+        "quantity": 1,
+        "item_discount": 8495,
+        "item_total": 8495
+      },
+      {
+        "item_name": "삼육 프로틴 고칼슘 두유",
+        "unit_price": 16990,
+        "quantity": 1,
+        "item_discount": 8495,
+        "item_total": 8495
+      }
+    ]
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-28",
+      "time": "12:46:20",
+      "total_amount": 39000,
+      "approval_code": "00164367"
+    },
+    "vendor_info": {
+      "vendor_name": "추목리솥밥",
+      "representative_name": "윤원교",
+      "tax_id": "302-12-15703",
+      "vendor_address": "대전 유성구 신성남로 103, 1층 (신성동)",
+      "customer_address": null,
+      "phone_number": "042-000-0000"
+    },
+    "payment_details": {
+      "supply_value": 35455,
+      "vat": 3545,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-07",
+      "time": "21:06:36",
+      "total_amount": 9900,
+      "approval_code": "00271468"
+    },
+    "vendor_info": {
+      "vendor_name": "케이엘그룹카이스트",
+      "representative_name": "김선주",
+      "tax_id": "314-86-53171",
+      "vendor_address": "대전 서구 가장동 2",
+      "customer_address": null,
+      "phone_number": "070-7017-6860"
+    },
+    "payment_details": {
+      "supply_value": 9000,
+      "vat": 900,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-20",
+      "time": "20:48:03",
+      "total_amount": 10500,
+      "approval_code": "00352360"
+    },
+    "vendor_info": {
+      "vendor_name": "케이엘그룹카이스트",
+      "representative_name": "김선주",
+      "tax_id": "314-86-53171",
+      "vendor_address": "대전 서구 가장동 2",
+      "customer_address": null,
+      "phone_number": "070-7017-6860"
+    },
+    "payment_details": {
+      "supply_value": 9546,
+      "vat": 954,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-24",
+      "time": "21:05:22",
+      "total_amount": 10600,
+      "approval_code": "00955927"
+    },
+    "vendor_info": {
+      "vendor_name": "케이엘그룹카이스트",
+      "representative_name": "김선주",
+      "tax_id": "314-86-53171",
+      "vendor_address": "대전 서구 가장동 2",
+      "customer_address": null,
+      "phone_number": "070-7017-6860"
+    },
+    "payment_details": {
+      "supply_value": 9637,
+      "vat": 963,
+      "service_charge": 0,
+      "card_number": "4***-****-****-280*"
+    },
+    "line_items": []
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-10",
+      "time": "10:57:06",
+      "total_amount": 16600,
+      "approval_code": "00681964"
+    },
+    "vendor_info": {
+      "vendor_name": "(주)피아이디",
+      "representative_name": null,
+      "tax_id": "127-86-53451",
+      "vendor_address": "경기도 양주시 화합로1710번길 12 (옥정동) 201호 202호 203호",
+      "customer_address": null,
+      "phone_number": null
+    },
+    "payment_details": {
+      "supply_value": 15091,
+      "vat": 1509,
+      "service_charge": 0,
+      "card_number": "404577******280*"
+    },
+    "line_items": [
+      {
+        "item_name": "샌디스크 울트라 CZ48 USB 3.0 메모리, 16GB",
+        "unit_price": 8300,
+        "quantity": 2,
+        "item_discount": 0,
+        "item_total": 16600
+      }
+    ]
+  }
+]
