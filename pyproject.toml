@@ -1,0 +1,27 @@
+[project]
+name = "receipt"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "chlee10",email = "chlee10@naver.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai (>=1.55.0,<2.0.0)",
+    "google-generativeai (>=0.8.5,<0.9.0)",
+    "pdf2image (>=1.17.0,<2.0.0)",
+    "pillow (>=12.0.0,<13.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.1.0,<8.0.0)",
+    "google-genai (>=1.55.0,<2.0.0)"
+]

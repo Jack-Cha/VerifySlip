@@ -1,0 +1,554 @@
+[
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-05",
+      "time": "19:25:04",
+      "total_amount": 12500,
+      "approval_code": "30006275"
+    },
+    "vendor_info": {
+      "vendor_name": "다다카츠",
+      "tax_id": "204-34-61109",
+      "address": "대전 유성구 어은로52번길 7 (어은동) 1층 다다카츠",
+      "phone_number": "042-320-2232"
+    },
+    "payment_details": {
+      "supply_value": 11365,
+      "vat": 1135,
+      "service_charge": 0,
+      "card_number": "4673-09**-****-7072"
+    },
+    "line_items": [],
+    "meta_data": {
+      "confidence_score": 0.99
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-08",
+      "time": "11:44:44",
+      "total_amount": 6200,
+      "approval_code": "30006315"
+    },
+    "vendor_info": {
+      "vendor_name": "팔마전산문구,인쇄",
+      "tax_id": "134-13-66358",
+      "address": "경기도 안산시 단원구 광덕동로 41 고잔동 로진프라자 105~106호(고잔동)",
+      "phone_number": "031-475-6708"
+    },
+    "payment_details": {
+      "supply_value": 5637,
+      "vat": 563,
+      "service_charge": 0,
+      "card_number": "467309**"
+    },
+    "line_items": [
+      {
+        "item_name": "[모닝] 캔퍼스 상",
+        "unit_price": 3200,
+        "quantity": 1,
+        "item_total": 3200
+      },
+      {
+        "item_name": "[미쯔비시] 제트",
+        "unit_price": 1500,
+        "quantity": 2,
+        "item_total": 3000
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.98
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-08",
+      "time": "10:50",
+      "total_amount": 15800,
+      "approval_code": "0980113899395"
+    },
+    "vendor_info": {
+      "vendor_name": "롯데쇼핑(주) 롯데마트 안산점",
+      "tax_id": "134-85-33024",
+      "address": null,
+      "phone_number": "031-508-2500"
+    },
+    "payment_details": {
+      "supply_value": 14364,
+      "vat": 1436,
+      "service_charge": 0,
+      "card_number": "46730966****707*"
+    },
+    "line_items": [
+      {
+        "item_name": "오늘좋은 순면주방타",
+        "unit_price": 3900,
+        "quantity": 1,
+        "item_total": 3900
+      },
+      {
+        "item_name": "오늘좋은 리얼스 3단",
+        "unit_price": 11900,
+        "quantity": 1,
+        "item_total": 11900
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.95
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-09",
+      "time": "15:46:20",
+      "total_amount": 17900,
+      "approval_code": "30006332"
+    },
+    "vendor_info": {
+      "vendor_name": "(주)우아한형제들",
+      "tax_id": "120-87-65763",
+      "address": "서울 송파구 위례성대로2 장은빌딩 2층",
+      "phone_number": "1600-0987"
+    },
+    "payment_details": {
+      "supply_value": 16273,
+      "vat": 1627,
+      "service_charge": 0,
+      "card_number": "467309**********"
+    },
+    "line_items": [
+      {
+        "item_name": "오리지널 1개",
+        "unit_price": null,
+        "quantity": null,
+        "item_total": null
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.99
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-11",
+      "time": "13:05:46",
+      "total_amount": 51335,
+      "approval_code": null
+    },
+    "vendor_info": {
+      "vendor_name": "(주)이마트",
+      "tax_id": null,
+      "address": null,
+      "phone_number": null
+    },
+    "payment_details": {
+      "supply_value": 44380,
+      "vat": 4035,
+      "service_charge": 0,
+      "card_number": "4673-09**-****-7001"
+    },
+    "line_items": [
+      {
+        "item_name": "화이트 화이트 네이처포레 팬티라이너 일반 81",
+        "unit_price": null,
+        "quantity": 1,
+        "item_total": 6955
+      },
+      {
+        "item_name": "엘라스틴 엘라스틴 아미노 트리트먼트 300ml(고영양)",
+        "unit_price": null,
+        "quantity": 1,
+        "item_total": 7950
+      },
+      {
+        "item_name": "엘라스틴 아미노펩타이드 샴푸 950ml(페어앤프리지아)",
+        "unit_price": null,
+        "quantity": 1,
+        "item_total": 9950
+      },
+      {
+        "item_name": "미장센 미장센 컬링에센스 2X 볼륨 컬 150ml",
+        "unit_price": null,
+        "quantity": 1,
+        "item_total": 6500
+      },
+      {
+        "item_name": "HBAF 먼투썬 3주",
+        "unit_price": null,
+        "quantity": 1,
+        "item_total": 19980
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.9
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-12",
+      "time": "18:09:33",
+      "total_amount": 1700,
+      "approval_code": "30006371"
+    },
+    "vendor_info": {
+      "vendor_name": "GS25만년강변점",
+      "tax_id": "317-74-00724",
+      "address": "대전 서구 만년동 52번지",
+      "phone_number": null
+    },
+    "payment_details": {
+      "supply_value": 1545,
+      "vat": 155,
+      "service_charge": 0,
+      "card_number": "4673-09**-****-7072"
+    },
+    "line_items": [
+      {
+        "item_name": "스윙칩고추60",
+        "unit_price": 1700,
+        "quantity": 1,
+        "item_total": 1700
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.95
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-13",
+      "time": "19:27:52",
+      "total_amount": 9000,
+      "approval_code": "30006381"
+    },
+    "vendor_info": {
+      "vendor_name": "참맛있는칼국수",
+      "tax_id": "501-52-00026",
+      "address": "대전 서구 청사서로 54 (월평동) 17, 2층",
+      "phone_number": "042-483-9259"
+    },
+    "payment_details": {
+      "supply_value": 8182,
+      "vat": 818,
+      "service_charge": 0,
+      "card_number": "4673-09**-****-****"
+    },
+    "line_items": [
+      {
+        "item_name": "해물 손칼국수",
+        "unit_price": 9000,
+        "quantity": 1,
+        "item_total": 9000
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.98
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-13",
+      "time": "20:13",
+      "total_amount": 30510,
+      "approval_code": "0980117279069"
+    },
+    "vendor_info": {
+      "vendor_name": "이마트 둔산점",
+      "tax_id": "206-86-50913",
+      "address": "대전 서구 둔산북로 41",
+      "phone_number": "042-479-1234"
+    },
+    "payment_details": {
+      "supply_value": 26230,
+      "vat": 3891,
+      "service_charge": 0,
+      "card_number": "46730966****707*"
+    },
+    "line_items": [
+      {
+        "item_name": "바로내린 도정미",
+        "unit_price": 17800,
+        "quantity": 1,
+        "item_total": 17800
+      },
+      {
+        "item_name": "서울우유 500ml",
+        "unit_price": 1950,
+        "quantity": 1,
+        "item_total": 1950
+      },
+      {
+        "item_name": "오뚜기 2배사과식초 9",
+        "unit_price": 4280,
+        "quantity": 1,
+        "item_total": 4280
+      },
+      {
+        "item_name": "동물복지 토종닭이 날",
+        "unit_price": 6480,
+        "quantity": 1,
+        "item_total": 6480
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.96
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-16",
+      "time": "16:51:07",
+      "total_amount": 17900,
+      "approval_code": "30006444"
+    },
+    "vendor_info": {
+      "vendor_name": "(주)우아한형제들",
+      "tax_id": "120-87-65763",
+      "address": "서울 송파구 위례성대로2 장은빌딩 2층",
+      "phone_number": "1600-0987"
+    },
+    "payment_details": {
+      "supply_value": 16272,
+      "vat": 1628,
+      "service_charge": 0,
+      "card_number": "467309**********"
+    },
+    "line_items": [
+      {
+        "item_name": "뼈없는 꿀맛 순살 아귀찜 1개",
+        "unit_price": null,
+        "quantity": null,
+        "item_total": null
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.99
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-19",
+      "time": "18:24:10",
+      "total_amount": 19900,
+      "approval_code": "30006492"
+    },
+    "vendor_info": {
+      "vendor_name": "(주)우아한형제들",
+      "tax_id": "120-87-65763",
+      "address": "서울 송파구 위례성대로2 장은빌딩 2층",
+      "phone_number": "1600-0987"
+    },
+    "payment_details": {
+      "supply_value": 18091,
+      "vat": 1809,
+      "service_charge": 0,
+      "card_number": "467309**********"
+    },
+    "line_items": [
+      {
+        "item_name": "고추바사삭 1개",
+        "unit_price": null,
+        "quantity": null,
+        "item_total": null
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.99
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-23",
+      "time": "22:21:54",
+      "total_amount": 8200,
+      "approval_code": "30006630"
+    },
+    "vendor_info": {
+      "vendor_name": "GS25만년강변점",
+      "tax_id": "317-74-00724",
+      "address": "대전 서구 만년동 52번지",
+      "phone_number": null
+    },
+    "payment_details": {
+      "supply_value": 7455,
+      "vat": 745,
+      "service_charge": 0,
+      "card_number": "4673-09**-****-7072"
+    },
+    "line_items": [
+      {
+        "item_name": "하겐녹차미니컵",
+        "unit_price": 6900,
+        "quantity": 1,
+        "item_total": 6900
+      },
+      {
+        "item_name": "코카)토레타240",
+        "unit_price": 1300,
+        "quantity": 1,
+        "item_total": 1300
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.96
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-26",
+      "time": null,
+      "total_amount": 31200,
+      "approval_code": "5467648"
+    },
+    "vendor_info": {
+      "vendor_name": "LG공인중개사사무소(엘지주택관리)",
+      "tax_id": "453-034-56-062467",
+      "address": "대전광역시 서구 만년동 205번지",
+      "phone_number": "042-472-7707"
+    },
+    "payment_details": {
+      "supply_value": 31200,
+      "vat": 0,
+      "service_charge": 0,
+      "card_number": null
+    },
+    "line_items": [
+      {
+        "item_name": "11월분 관리비",
+        "unit_price": 31200,
+        "quantity": 1,
+        "item_total": 31200
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.95,
+      "note": "Combined data from bill and payment confirmation"
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-26",
+      "time": null,
+      "total_amount": 13180,
+      "approval_code": "06 1322 7515"
+    },
+    "vendor_info": {
+      "vendor_name": "한국전력공사",
+      "tax_id": "120-82-00052",
+      "address": "대전광역시 서구 변동중로 39",
+      "phone_number": "042-608-2109"
+    },
+    "payment_details": {
+      "supply_value": null,
+      "vat": null,
+      "service_charge": 0,
+      "card_number": null
+    },
+    "line_items": [
+      {
+        "item_name": "11월분 전기요금",
+        "unit_price": 13180,
+        "quantity": 1,
+        "item_total": 13180
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.95,
+      "note": "Combined data from bill and payment confirmation"
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-26",
+      "time": null,
+      "total_amount": 42950,
+      "approval_code": "4000200"
+    },
+    "vendor_info": {
+      "vendor_name": "CNCITY에너지(주)",
+      "tax_id": null,
+      "address": "대전광역시 중구 유등천동로 762 (중촌동)",
+      "phone_number": "1666-0009"
+    },
+    "payment_details": {
+      "supply_value": 38203,
+      "vat": 3905,
+      "service_charge": 0,
+      "card_number": null
+    },
+    "line_items": [
+      {
+        "item_name": "11월 도시가스 요금",
+        "unit_price": 42950,
+        "quantity": 1,
+        "item_total": 42950
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.95,
+      "note": "Combined data from bill and payment confirmation"
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-28",
+      "time": "19:23",
+      "total_amount": 1000,
+      "approval_code": "30006710"
+    },
+    "vendor_info": {
+      "vendor_name": "스토리웨이(대전역맞이방)",
+      "tax_id": "107-86-57147",
+      "address": "대전광역시 동구 대전로 822",
+      "phone_number": "070-7092-7156"
+    },
+    "payment_details": {
+      "supply_value": 909,
+      "vat": 91,
+      "service_charge": 0,
+      "card_number": "467309**********"
+    },
+    "line_items": [
+      {
+        "item_name": "오리온)통크초코",
+        "unit_price": 1200,
+        "quantity": 1,
+        "item_total": 1200
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.97
+    }
+  },
+  {
+    "basic_transaction_info": {
+      "date": "2025-11-30",
+      "time": "16:34:20",
+      "total_amount": 17900,
+      "approval_code": "30006736"
+    },
+    "vendor_info": {
+      "vendor_name": "(주)우아한형제들",
+      "tax_id": "120-87-65763",
+      "address": "서울 송파구 위례성대로2 장은빌딩 2층",
+      "phone_number": "1600-0987"
+    },
+    "payment_details": {
+      "supply_value": 16272,
+      "vat": 1628,
+      "service_charge": 0,
+      "card_number": "467309**********"
+    },
+    "line_items": [
+      {
+        "item_name": "뼈없는 꿀맛 순살 아귀찜 1개",
+        "unit_price": null,
+        "quantity": null,
+        "item_total": null
+      }
+    ],
+    "meta_data": {
+      "confidence_score": 0.99
+    }
+  }
+]

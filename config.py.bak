@@ -1,0 +1,41 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
+# API Configuration
+# 환경 변수에서 가져오거나 직접 입력하세요
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyAwwPCwIXe5QAdKJPloqzUolWxH5Uk-yoU")
+
+# Model Configuration
+GEMINI_MODEL_NAME = 'gemini-2.0-flash'
+
+# File Paths
+INPUT_PDF_PATH = r"C:\Users\chiho\OneDrive\AI_PJTs\AIOCR\receipt\data\1.2025-11_지출결의영수증_지수현.pdf"
+OUTPUT_JSON_PATH = r"C:\Users\chiho\OneDrive\AI_PJTs\AIOCR\receipt\output\llm_receipt_results.json"
+
+# Poppler Configuration (Windows 사용자 필수)
+# Poppler 설치 경로의 bin 폴더를 지정하세요. (예: r"C:\Program Files\poppler-24.02.0\Library\bin")
+# 시스템 PATH에 등록되어 있다면 None으로 두어도 됩니다.
+POPPLER_PATH = r"C:\Users\chiho\AppData\Local\Microsoft\WinGet\Packages\oschwartz10612.Poppler_Microsoft.Winget.Source_8wekyb3d8bbwe\poppler-25.07.0\Library\bin"
+
+# Prompts
+RECEIPT_PROMPT = """
+    너는 전문 데이터 입력 사무원이야. 이 영수증 이미지를 보고 아래 요구사항에 맞춰 정보를 추출해줘.
+    
+    [요구사항]
+    1. 가맹점명(상호), 거래일시(YYYY-MM-DD HH:MM:SS), 합계금액(숫자만), 품목리스트를 추출할 것.
+    2. 날짜가 잘 안 보이면 '날짜 불명'으로 처리할 것.
+    3. 결과는 반드시 오직 순수한 JSON 형식으로만 출력해. (마크다운 ```json 태그 쓰지 말 것)
+    
+    [JSON 출력 예시]
+    {
+        "store_name": "스타벅스 강남점",
+        "date": "2025-11-05 12:30:00",
+        "total_amount": 15000,
+        "items": [
+            {"name": "아메리카노", "price": 4500, "qty": 1},
+            {"name": "카페라떼", "price": 5000, "qty": 2}
+        ]
+    }
+    """
