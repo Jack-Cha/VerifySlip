@@ -7,10 +7,10 @@ import io.github.cdimascio.dotenv.Dotenv;
  */
 public class Config {
     // Input Paths
-    public static final String PDF_PATH = ".\\data\\영수증_PDF\\1. 2025-11_지출결의영수증_지수현.pdf";
+    public static final String PDF_PATH = "D:\\data\\영수증_PDF\\1. 2025-11_지출결의영수증_지수현.pdf";
 
     // Output Paths
-    public static final String JSON_PATH = ".\\output\\1. 2025-11_지출결의영수증_지수현.json";
+    public static final String JSON_PATH = "D:\\output\\1. 2025-11_지출결의영수증_지수현.json";
 
     // LLM Model Settings
     public static final String MODEL_NAME = "gemini-2.5-pro";
