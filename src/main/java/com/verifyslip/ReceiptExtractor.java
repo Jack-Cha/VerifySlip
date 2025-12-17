@@ -54,42 +54,71 @@ public class ReceiptExtractor {
 
         try {
             File tempFile = tempPath.toFile();
+            long fileSize = tempFile.length();
 
-            // Build multipart request
-            RequestBody fileBody = RequestBody.create(
-                tempFile,
-                MediaType.get("application/pdf")
-            );
-
-            MultipartBody requestBody = new MultipartBody.Builder()
-                    .setType(MultipartBody.FORM)
-                    .addFormDataPart("file", "receipt.pdf", fileBody)
-                    .build();
-
+            // Step 1: Start resumable upload
             String uploadUrl = String.format("%s/upload/v1beta/files?key=%s", GEMINI_API_BASE, apiKey);
 
-            Request request = new Request.Builder()
+            JsonObject metadata = new JsonObject();
+            JsonObject file = new JsonObject();
+            file.addProperty("display_name", tempFile.getName());
+            metadata.add("file", file);
+
+            RequestBody metadataBody = RequestBody.create(
+                gson.toJson(metadata),
+                MediaType.get("application/json; charset=utf-8")
+            );
+
+            Request initRequest = new Request.Builder()
                     .url(uploadUrl)
-                    .post(requestBody)
-                    .addHeader("X-Goog-Upload-Protocol", "multipart")
+                    .post(metadataBody)
+                    .addHeader("X-Goog-Upload-Protocol", "resumable")
+                    .addHeader("X-Goog-Upload-Command", "start")
+                    .addHeader("X-Goog-Upload-Header-Content-Length", String.valueOf(fileSize))
+                    .addHeader("X-Goog-Upload-Header-Content-Type", "application/pdf")
                     .build();
 
-            try (Response response = client.newCall(request).execute()) {
-                if (!response.isSuccessful()) {
-                    throw new IOException("파일 업로드 실패: " + response.code() + " - " + response.message());
+            String uploadUri;
+            try (Response initResponse = client.newCall(initRequest).execute()) {
+                if (!initResponse.isSuccessful()) {
+                    String errorBody = initResponse.body() != null ? initResponse.body().string() : "";
+                    throw new IOException("업로드 시작 실패: " + initResponse.code() + " - " + errorBody);
+                }
+                uploadUri = initResponse.header("X-Goog-Upload-URL");
+                if (uploadUri == null) {
+                    throw new IOException("업로드 URL을 받지 못했습니다");
+                }
+            }
+
+            // Step 2: Upload file content
+            byte[] fileBytes = Files.readAllBytes(tempPath);
+            RequestBody fileBody = RequestBody.create(fileBytes, MediaType.get("application/pdf"));
+
+            Request uploadRequest = new Request.Builder()
+                    .url(uploadUri)
+                    .put(fileBody)
+                    .addHeader("Content-Length", String.valueOf(fileSize))
+                    .addHeader("X-Goog-Upload-Offset", "0")
+                    .addHeader("X-Goog-Upload-Command", "upload, finalize")
+                    .build();
+
+            try (Response uploadResponse = client.newCall(uploadRequest).execute()) {
+                if (!uploadResponse.isSuccessful()) {
+                    String errorBody = uploadResponse.body() != null ? uploadResponse.body().string() : "";
+                    throw new IOException("파일 업로드 실패: " + uploadResponse.code() + " - " + errorBody);
                 }
 
-                String responseBody = response.body().string();
+                String responseBody = uploadResponse.body().string();
                 JsonObject fileInfo = gson.fromJson(responseBody, JsonObject.class);
-                JsonObject file = fileInfo.getAsJsonObject("file");
+                JsonObject uploadedFile = fileInfo.getAsJsonObject("file");
 
-                String fileName = file.get("name").getAsString();
-                String mimeType = file.get("mimeType").getAsString();
+                String fileName = uploadedFile.get("name").getAsString();
+                String mimeType = uploadedFile.get("mimeType").getAsString();
 
                 logger.info("업로드 완료. 파일 이름: {}", fileName);
                 logger.info("MIME 타입: {}", mimeType);
 
-                return file;
+                return uploadedFile;
             }
         } finally {
             // Delete temporary file

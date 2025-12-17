@@ -7,10 +7,10 @@ import io.github.cdimascio.dotenv.Dotenv;
  */
 public class Config {
     // Input Paths
-    public static final String PDF_PATH = "D:\\data\\영수증_PDF\\1. 2025-11_지출결의영수증_지수현.pdf";
+    public static final String PDF_PATH = "D:\\data\\영수증_PDF\\5. 2025-11_지출결의영수증_박찬주.pdf";
 
     // Output Paths
-    public static final String JSON_PATH = "D:\\output\\1. 2025-11_지출결의영수증_지수현.json";
+    public static final String JSON_PATH = "D:\\output\\5. 2025-11_지출결의영수증_박찬주.json";
 
     // LLM Model Settings
     public static final String MODEL_NAME = "gemini-2.5-pro";
@@ -95,7 +95,7 @@ public class Config {
   - *용도:* 금지 품목(주류, 담배 등) 키워드 검색
 - **단가 및 수량 (Unit Price & Quantity)**
   - *용도:* 상세 금액 계산 검증
-- **할인금액 (Item Discount)**
+- **행사 / 할인 (Item Discount)**
   - *용도:* 할인 내역 검증 (있을 경우)
 - **품목별 금액 (Item Total)**
   - *용도:* 품목 합계가 총 합계와 일치하는지 확인
